@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="picture-container">
+        <img
+          src="assets/formPicture.jpg"
+          alt="Picture of cherry blossom trees"
+          id="picture"
+        />
+        <p id="title">Spoti-Shuffle</p>
+        <p id="attribution">
+          Photo by
+          <a
+            href="https://unsplash.com/@shambam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Sam 🐷</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/a-tree-filled-with-lots-of-pink-flowers-MHpu5zt13uA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </p>
+      </div>
+      <div class="form-container">
+        <form action="" class="sign-up">
+          <section class="form-header">
+            Sign up for Spoti-Shuffle now and take control of your music
+            listening experience!
+            <p> Sign up <em>now</em> to get started.</p>
+          </section>
+          <section class="form-body">
+            <p>Let's do this!</p>
+            <div class="input-line">
+              <div class="input-bundle">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name" />
+              </div>
+              <div class="input-bundle">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" />
+              </div>
+            </div>
+            <div class="input-line">
+              <div class="input-bundle">
+                <label for="email">EMAIL</label>
+                <input type="text" id="email" />
+              </div>
+              <div class="input-bundle">
+                <label for="phone_number">PHONE NUMBER</label>
+                <input type="text" id="phone_number" />
+              </div>
+            </div>
+            <div class="input-line">
+              <div class="input-bundle">
+                <label for="password" id="password">PASSWORD</label>
+                <input type="text" id="password" required/>
+              </div>
+              <div class="input-bundle">
+                <span>CONFIRM PASSWORD</span>
+                <input type="text" id="confirm_password" required/>
+              </div>
+            </div>
+          </section>
+          <section class="form-submit">
+            <button class="submit">Create Account</button>
+            <p class="already-exists">
+              Aready have an account? <a href="" class="login">Log in</a>
+            </p>
+          </section>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
