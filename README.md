@@ -1,2 +1,2 @@
 # sign-up-form
-![completed form](image.png)
+![completed form](assets/image.png)

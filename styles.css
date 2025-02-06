@@ -93,7 +93,7 @@ a {
         border-style: solid;
       }
 
-      input[required] {
+      input:invalid {
         outline: 1px solid red;
       }
 

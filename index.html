@@ -50,21 +50,21 @@
             <div class="input-line">
               <div class="input-bundle">
                 <label for="email">EMAIL</label>
-                <input type="text" id="email" />
+                <input type="email" id="email" />
               </div>
               <div class="input-bundle">
                 <label for="phone_number">PHONE NUMBER</label>
-                <input type="text" id="phone_number" />
+                <input type="text" minlength="10" maxlength="10" id="phone_number" />
               </div>
             </div>
             <div class="input-line">
               <div class="input-bundle">
                 <label for="password" id="password">PASSWORD</label>
-                <input type="text" id="password" required/>
+                <input type="text" minlength="8" maxlength="255" id="password" required/>
               </div>
               <div class="input-bundle">
                 <span>CONFIRM PASSWORD</span>
-                <input type="text" id="confirm_password" required/>
+                <input type="text" minlength="8" maxlength="255" id="confirm_password" required/>
               </div>
             </div>
           </section>
